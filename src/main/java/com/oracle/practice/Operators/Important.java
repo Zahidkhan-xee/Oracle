@@ -1,6 +1,6 @@
 package com.oracle.practice.Operators;
 
-public class temp {
+public class Important {
     public static void main(String[] args) {
         Integer integer1 = 127;
         Integer integer2 = 127;
