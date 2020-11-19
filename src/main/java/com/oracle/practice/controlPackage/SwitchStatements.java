@@ -11,7 +11,7 @@ public class SwitchStatements {
                 System.out.println("First day of week");
                 break;
             case "tuesday":
-                System.out.println("Second day");
+                 System.out.println("Second day");
                 break;
             default:
                 System.out.println("Other day.");
