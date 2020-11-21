@@ -22,5 +22,11 @@ public class StringPoolStringEquality {
         System.out.println("Name equals zah+id " + zahid.equals(zah + id));
 
 
+        System.out.println("Naame : "+ System.identityHashCode(name));
+        System.out.println("AnotherName: "+ System.identityHashCode(anotherName));
+        System.out.println("Zahid : "+ System.identityHashCode(zahid));
+        System.out.println("newName : " + System.identityHashCode(newName));
+        System.out.println("Zah : "+ System.identityHashCode(zah));
+        System.out.println("Id : "+ System.identityHashCode(id));
     }
 }
