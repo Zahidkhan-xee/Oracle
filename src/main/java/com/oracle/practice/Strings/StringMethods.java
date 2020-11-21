@@ -31,4 +31,3 @@ public class StringMethods {
         }catch (StringIndexOutOfBoundsException e){}
     }
 }
-E
