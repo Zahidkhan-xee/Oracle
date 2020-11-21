@@ -28,5 +28,15 @@ public class StringPoolStringEquality {
         System.out.println("newName : " + System.identityHashCode(newName));
         System.out.println("Zah : "+ System.identityHashCode(zah));
         System.out.println("Id : "+ System.identityHashCode(id));
+
+        //exam
+        String str1 = "abc";
+        String str2 = "ab";
+        String str3 = str2 + "c";
+
+        System.out.println(str1 == str2);
+        System.out.println(str1==str3);
+        String str4 = "ab" + "c";
+        System.out.println(str4 == str1);
     }
 }
