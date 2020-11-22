@@ -45,7 +45,7 @@ public class StringBuilderExample {
         System.out.println(stringBuilder4.capacity());
 
         stringBuilder4.append("he");
-        System.out.prin tln(stringBuilder4.length());
+        System.out.println(stringBuilder4.length());
         System.out.println(stringBuilder4.capacity());
 
 
