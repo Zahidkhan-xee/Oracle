@@ -1,4 +1,4 @@
-package com.oracle.practice.Basics;
+package com.oracle.practice.basics;
 
 public class DefaultInitializationOfPrimities {
     static int number;
