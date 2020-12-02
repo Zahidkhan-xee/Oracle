@@ -1,10 +1,8 @@
 package com.oracle.practice.hashSets;
 
-import java.util.HashSet;
-
-public class hashSet {
+public class HashSetOnPratice {
     public static void main(String[] args) {
-	HashSet<String> hashSet = new HashSet<>();
+	java.util.HashSet<String> hashSet = new java.util.HashSet<>();
 	hashSet.add("Zahid");
 	hashSet.add("Arif");
 	hashSet.add("Khan");
@@ -30,5 +28,7 @@ public class hashSet {
 	hashSet.add("Zaihid");
 	successful = hashSet.contains("Zaihid");
 	System.out.println(successful);
+
+
     }
 }
