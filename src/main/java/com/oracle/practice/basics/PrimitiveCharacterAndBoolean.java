@@ -1,4 +1,4 @@
-package com.oracle.practice.Basics;
+package com.oracle.practice.basics;
 
 public class PrimitiveCharacterAndBoolean {
     public static void main(String[] args) {
