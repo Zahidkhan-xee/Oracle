@@ -12,7 +12,6 @@ public class HashsetClassObjects {
 	student.add(new Student(2, "Azra"));
 	System.out.println(student);
 
-
     }
 }
 
@@ -30,5 +29,17 @@ class Student {
 	return "\nRoll Number : " + rollNumber + " Name : " + name;
     }
 
+    @Override
+    public boolean equals(Object object) {
+	Student s = (Student) object;
+	if (this.name.equals(s.name) && this.rollNumber == s.rollNumber) {
+	    return true;
+	}
+	    return false;
+    }
 
+    @Override
+    public int hashCode() {
+	return (rollNumber + name).hashCode();
+    }
 }
