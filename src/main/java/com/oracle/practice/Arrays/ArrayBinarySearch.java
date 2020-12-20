@@ -17,6 +17,5 @@ public class ArrayBinarySearch {
                 System.out.println(Arrays.binarySearch(array3,"U"));
 
 
-
         }
 }
