@@ -1,4 +1,4 @@
-package com.oracle.practice.Arrays;
+package com.oracle.practice.arrays;
 
 import java.util.Arrays;
 

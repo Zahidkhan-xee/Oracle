@@ -1,4 +1,4 @@
-package com.oracle.practice.Arrays;
+package com.oracle.practice.arrays;
 
 public class Label {
         public static void main(String[] args) {
