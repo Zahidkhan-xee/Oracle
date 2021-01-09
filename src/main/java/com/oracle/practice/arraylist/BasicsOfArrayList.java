@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class basicsOfArrayList {
+public class BasicsOfArrayList {
         public static void main(String[] args) {
                 ArrayList string = new ArrayList();
                 string.add("hello");
@@ -25,7 +25,16 @@ public class basicsOfArrayList {
                 //BY DEFAULT IT MAKES ArrayList Of Objects . .
 
                 ArrayList<String> student =  new ArrayList<>(Arrays.asList("Zahid","arif","Shazib"));
+                student.add("Azra");
+                student.add(0,"Suzain");
+
                 System.out.println(student);
+
+                System.out.println("The first student is : "+ student.get(0));
+                System.out.println("The last student is : "+ student.get(student.size()-1));
+
+                System.out.println("Student has khalid : "+ student.contains("khalid"));
+                System.out.println("Student has zahid : "+ student.contains("zahid"));
 
 
         }
